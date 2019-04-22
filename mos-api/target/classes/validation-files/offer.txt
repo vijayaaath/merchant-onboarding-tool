@@ -1,0 +1,9 @@
+#longDesc,Alphanumeric with spaces and special characters(-%@.#),regex,^[\w\d\s-%@.#]+$
+#medDesc,Alphanumeric with spaces and special characters(-%@.#),regex,^[\w\d\s-%@.#]+$
+#shortDesc,Alphanumeric with spaces and special characters(-%@.#),regex,^[\w\d\s-%@.#]+$
+#postalCode,Numbers with spaces,regex,^[\d\s]+$
+#promoCode,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$
+#validFrom,should be in format yyyy-MM-dd HH:mm:ss,datecheck,yyyy-MM-dd HH:mm:ss
+#validTo,should be in format yyyy-MM-dd HH:mm:ss,datecheck,yyyy-MM-dd HH:mm:ss
+#tenantName,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$
+#brandName,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$

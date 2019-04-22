@@ -1,0 +1,7 @@
+#country,Alphanumeric with spaces and special characters(-(.)),regex,^[\w\d\s-(.)]+$
+#postalCode,Numbers with spaces,regex,^[\d\s]+$
+#streetNo,Numbers,regex,^[\d]+$
+#unitNo,Numbers,regex,^[\d]+$
+#cityName,Alphanumeric with spaces and special characters(-(.)),regex,^[\w\d\s-(.)]+$
+#floor,Numbers,regex,^[\d]+$
+#locality,Alphanumeric with spaces and special characters(-(.)),regex,^[\w\d\s-(.)]+$

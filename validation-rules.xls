@@ -1,0 +1,74 @@
+OFFER:	Validation Rule	Description
+offer_id		
+eligibility_and_remarks		
+long_desc	should be in regex ^[\w\d\s-%@.,#]+$	Alphanumeric with spaces,special characters(-%@.,#)
+med_desc	should be in regex ^[\w\d\s-%@.,#]+$	Alphanumeric with spaces,special characters(-%@.,#)
+offer_redeem_outlets		
+postal_code	should be in regex ^[\d\s]+$	Numbers with spaces
+promo_code	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+redeem_url	should be accessible	URL validation check
+short_desc	should be in regex ^[\w\d\s-%@.,#]+$	Alphanumeric with spaces,special characters(-%@.,#)
+status		
+valid_from	valid date form yyyy-MM-dd HH:mm:ss	Date format check
+valid_to	valid date form yyyy-MM-dd HH:mm:ss	Date format check
+brand_id		
+merchant_id		
+tenant_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+brand_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+		
+OUTLET:		
+outlet_id		
+location_id	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+phone	should be in regex ^[\d\s+]+$	Numbers with spaces,special characters(+)
+status		
+uniq_outlet_qualities		
+url	should be accessible	URL validation check
+address_id		
+brand_id		
+merchant_id		
+opening_hours_id		
+tenant_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+brand_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+		
+BRAND:		
+brand_id		
+category	should be in regex ^[\w\s]+$	Alphabets with spaces
+description		
+email	should be in regex ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,6}$	Email standard format check
+images		
+name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+publish_without_offers		
+status		
+sub_categories	should be in regex ^[\w\s]+$	Alphabets with spaces
+tags	should be in regex [\w\d\|\s&/-]+[^|]$	should be separated by pipe and shouldn't have special characters and shouldn't end with pipe
+url	should be accessible	URL validation check
+merchant_id		
+tenant_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+		
+MERCHANT:		
+merchant_id		
+business_title	should be in regex ^[\w\d\s-,.]+$	Alphanumeric with spaces,special characters(-,.)
+business_type	should be in regex ^[\w\s]+$	Alphabets with spaces
+commercial_model	should be in regex ^[\w\s]+$	Alphabets with spaces
+contact_person	should be in regex ^[\w\s]+$	Alphabets with spaces
+description		
+email	should be in regex ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,6}$	Email standard format check
+name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-)
+phone_no	should be in regex ^[\d\s+]+$	Numbers with spaces,special characters(+)
+status		
+address_id		
+tenant_name	should be in regex ^[\w\d\s-]+$	Alphanumeric with spaces,special characters(-,.)
+		
+ADDRESS:		
+address_id		
+country	should be in regex ^[\w\d\s-(.)]+$	Alphanumeric with spaces,special characters(-(.))
+postal_code	should be in regex ^[\d\s]+$	Numbers with spaces
+street_no	should be in regex ^[\d]+$	Numbers
+unit_no	should be in regex ^[\d]+$	Numbers
+building_name		
+city_name	should be in regex ^[\w\d\s-(.)]+$	Alphanumeric with spaces,special characters(-(.))
+floor	should be in regex ^[\d]+$	Numbers
+locality	should be in regex ^[\w\d\s-(.)]+$	Alphanumeric with spaces,special characters(-(.))
+road_name_1		
+road_name_2		
+street_name		

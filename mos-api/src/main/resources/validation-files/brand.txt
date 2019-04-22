@@ -1,0 +1,7 @@
+#category,Alphabets with spaces,regex,^[\w\s]+$
+#email,should be a standard email format,regex,^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,6}$
+#name,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$
+#subCategories,should be separated by pipe and shouldn't have special characters and shouldn't end with pipe,regex,[\w\d\|\s&/-]+[^|]$
+#tags,should be separated by pipe and shouldn't have special characters and shouldn't end with pipe,regex,[\w\d\|\s&/-]+[^|]$
+#url,should be accessible,urlvalidator
+#tenantName,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$

@@ -1,0 +1,14 @@
+target
+dependency-reduced-pom.xml
+bin
+logs
+*.log
+.vagrant
+*.iml
+*.jar
+.idea/
+*.pyc
+*~
+*.project
+*.settings
+*.classpath

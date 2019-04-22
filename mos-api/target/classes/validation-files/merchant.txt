@@ -1,0 +1,8 @@
+#businessTitle,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$
+#businessType,Alphabets with spaces,regex,^[\w\s]+$
+#commercialModel,Alphabets with spaces,regex,^[\w\s]+$
+#contactPerson,Alphabets with spaces,regex,^[\w\s]+$
+#email,should be a standard email format,regex,^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+[.][A-Za-z]{2,6}$
+#name,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$
+#phoneNumber,Numbers with spaces and special characters(+),regex,^[\d\s+]+$
+#tenantName,Alphanumeric with spaces and special characters(-),regex,^[\w\d\s-]+$

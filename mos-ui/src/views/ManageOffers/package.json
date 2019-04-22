@@ -1,0 +1,7 @@
+{
+    "name": "Manage Offer",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ManageOffer.js"
+  }
+  

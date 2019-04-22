@@ -1,0 +1,6 @@
+{
+  "name": "ManageMerchant",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ManageMerchant.js"
+}

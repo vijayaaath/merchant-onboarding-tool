@@ -1,0 +1,1 @@
+export const API_ROOT = 'http://mayatf-qa-mo.buildmaya.com:8888/';
